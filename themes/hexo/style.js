@@ -13,7 +13,29 @@ const Style = () => {
     .dark body{
         background-color: black;
     }
-  
+    
+     /* 卡片样式 */
+    #blog-post-card {
+        width: 90%;
+        max-width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        transition: all 0.3s ease;
+    }
+
+    @media (min-width: 768px) {
+        #blog-post-card {
+            width: 80%;
+            height: 350px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        #blog-post-card {
+            width: 70%;
+            height: 400px;
+        }
+    }
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
         text-decoration: none;
