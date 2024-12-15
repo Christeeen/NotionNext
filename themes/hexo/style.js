@@ -18,7 +18,7 @@ const Style = () => {
     #blog-post-card {
         width: 90%;
         max-width: 1200px;
-        height: 300px;
+        height: 100px;
         margin: 0 auto;
         transition: all 0.3s ease;
     }
@@ -26,14 +26,14 @@ const Style = () => {
     @media (min-width: 768px) {
         #blog-post-card {
             width: 80%;
-            height: 350px;
+            height: 150px;
         }
     }
 
     @media (min-width: 1024px) {
         #blog-post-card {
             width: 70%;
-            height: 400px;
+            height: 100px;
         }
     }
     /*  菜单下划线动画 */
